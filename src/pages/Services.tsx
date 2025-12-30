@@ -16,7 +16,7 @@ const Services = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-center mb-16"
                 >
-                    <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Investments</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Services</h1>
                     <p className="text-gray-400">Choose the package that perfectly fits your needs.</p>
                 </motion.div>
 
