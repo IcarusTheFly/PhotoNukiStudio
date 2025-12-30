@@ -87,7 +87,7 @@ const Contact = () => {
 
                         {/* Map Placeholder */}
                         <div className="h-64 rounded-2xl overflow-hidden bg-gray-800 relative">
-                            <img src={mapImage} className="w-full h-full object-cover opacity-50" alt="Map Location" />
+                            <img src={mapImage} className="w-full h-full object-cover" alt="Map Location" />
                         </div>
                     </motion.div>
 
