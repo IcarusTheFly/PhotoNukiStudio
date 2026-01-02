@@ -80,7 +80,11 @@ const SocialLink = ({ icon, href }: { icon: React.ReactNode, href: string }) => 
 
 const FooterLink = ({ to, label }: { to: string, label: string }) => (
     <li>
-        <Link to={to} className="text-gray-400 hover:text-accent transition-colors flex items-center">
+        <Link
+            to={to}
+            className="text-gray-400 hover:text-accent transition-colors flex items-center"
+            onClick={() => window.scrollTo(0, 0)}
+        >
             <span className="mr-2">›</span> {label}
         </Link>
     </li>

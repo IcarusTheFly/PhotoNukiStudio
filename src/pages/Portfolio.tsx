@@ -35,15 +35,9 @@ const Portfolio = () => {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            whileHover={{ y: -10 }}
-                            className="relative group rounded-xl overflow-hidden shadow-xl aspect-[3/4] cursor-pointer"
+                            className="relative group rounded-xl overflow-hidden shadow-xl aspect-[3/4]"
                         >
                             <img src={src} alt={`Portfolio item ${index}`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span className="text-accent font-bold text-lg border-2 border-accent px-6 py-2 rounded-full transform scale-90 group-hover:scale-100 transition-transform">
-                                    View Details
-                                </span>
-                            </div>
                         </motion.div>
                     ))}
                 </div>

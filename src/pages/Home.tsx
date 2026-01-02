@@ -75,9 +75,6 @@ const Home = () => {
                                 className="group relative overflow-hidden rounded-xl aspect-[3/4]"
                             >
                                 <img src={src} alt={`Portfolio ${index}`} className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                                    <span className="text-accent font-bold text-xl">View Project</span>
-                                </div>
                             </motion.div>
                         ))}
                     </div>
